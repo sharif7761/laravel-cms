@@ -9,22 +9,44 @@
             Posts
         </div>
         <div class="card-body">
-            <table class="table">
-                <thead>
-                <th>Title</th>
-                <th>Image</th>
-                </thead>
-                <tbody>
-                    @foreach($posts as $post)
-                        <tr>
-                            <td>{{ $post->title }}</td>
-                            <td> <img width="120px" height="60px" src="{{ asset('/storage/'.$post->image) }}" alt="post"> </td>
-                        </tr>
-                    @endforeach
-
-                </tbody>
-            </table>
-
+            @if($posts->count() > 0)
+                <table class="table">
+                    <thead>
+                        <th>Title</th>
+                        <th>Image</th>
+                        <th>Action</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        @foreach($posts as $post)
+                            <tr>
+                                <td>
+                                    {{ $post->title }}
+                                </td>
+                                <td>
+                                    <img width="120px" height="60px" src="{{ asset('/storage/'.$post->image) }}" alt="post">
+                                </td>
+                                <td>
+                                    @if(!$post->trashed())
+                                        <button class="btm btn-success btn-sm">Edit</button>
+                                    @endif
+                                </td>
+                                <td>
+                                    <form action="{{ route('posts.destroy',$post->id) }}" method="POST">
+                                        @csrf
+                                        @method("DELETE")
+                                        <button type="submit" class="btm btn-danger btn-sm">
+                                           {{ $post->trashed() ? 'Delete' : 'Trash' }}
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+            @else
+                <h3 class="text-center">No Posts Yet</h3>
+            @endif
             <!-- Modal -->
             <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
