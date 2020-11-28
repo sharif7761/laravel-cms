@@ -6,15 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5bb05-9f02-4f2a-9de0-61fb645be595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +178,10 @@
       <workItem from="1606070670522" duration="3778000" />
       <workItem from="1606157697583" duration="4317000" />
       <workItem from="1606238036926" duration="5188000" />
-      <workItem from="1606326268493" duration="3934000" />
+      <workItem from="1606326268493" duration="4743000" />
+      <workItem from="1606464712444" duration="1231000" />
+      <workItem from="1606467224986" duration="2232000" />
+      <workItem from="1606579312974" duration="5887000" />
     </task>
     <servers />
   </component>
@@ -267,5 +266,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605985681838" />
+    <state x="98" y="122" key="FileChooserDialogImpl" timestamp="1606465215755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="98" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606465215755" />
+    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606465185590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606465185590" />
+    <state x="0" y="166" key="run.anything.popup" timestamp="1606465114311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606465114311" />
+    <state x="0" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606465248337">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606465248337" />
   </component>
 </project>

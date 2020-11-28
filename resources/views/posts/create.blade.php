@@ -19,16 +19,12 @@
                     </ul>
                 </div>
             @endif
-            <form action="{{ isset($category) ? route('categories.update', $category->id) : route('posts.store') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-
-                @if(isset($category))
-                    @method('PUT')
-                @endif
 
                 <div class="form-group">
                     <label for="title">Title</label>
-                    <input type="text" id="title" class="form-control" name="title" value="{{ isset($category) ? $category->name : '' }}">
+                    <input type="text" id="title" class="form-control" name="title">
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
@@ -36,19 +32,19 @@
                 </div>
                 <div class="form-group">
                     <label for="content">Content</label>
-                    <textarea class="form-control" name="content" id="content" cols="5" rows="5"></textarea>
+                    <textarea class="form-control" name="contents" id="contents" cols="5" rows="5"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="published_at">Published At</label>
-                    <input type="text" id="published_at" class="form-control" name="published_at" value="{{ isset($category) ? $category->name : '' }}">
+                    <input type="text" id="published_at" class="form-control" name="published_at">
                 </div>
                 <div class="form-group">
                     <label for="image">Image</label>
-                    <input type="file" id="image" class="form-control" name="image" value="{{ isset($category) ? $category->name : '' }}">
+                    <input type="file" id="image" class="form-control" name="image">
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-success">
-                        {{ isset($category) ? 'Update Category' : 'Add Category' }}
+                    <button type="submit" class="btn btn-success">
+                         Add Post
                     </button>
                 </div>
             </form>

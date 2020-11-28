@@ -11,10 +11,16 @@
         <div class="card-body">
             <table class="table">
                 <thead>
-                <th>Name</th>
-                <th>Action</th>
+                <th>Title</th>
+                <th>Image</th>
                 </thead>
                 <tbody>
+                    @foreach($posts as $post)
+                        <tr>
+                            <td>{{ $post->title }}</td>
+                            <td> <img width="120px" height="60px" src="{{ asset('/storage/'.$post->image) }}" alt="post"> </td>
+                        </tr>
+                    @endforeach
 
                 </tbody>
             </table>

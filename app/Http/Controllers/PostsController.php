@@ -15,7 +15,7 @@ class PostsController extends Controller
      */
     public function index()
     {
-        return view('posts.index');
+        return view('posts.index')->with('posts', Post::all());
     }
 
     /**
@@ -36,12 +36,12 @@ class PostsController extends Controller
      */
     public function store(CreatePostsRequest $request)
     {
-        $image = $request->image->store('posts');
+        $image = $request->image->store('posts', 'public');
 
         Post::create([
             'title' => $request->title,
             'description' => $request->description,
-            'content' => $request->content,
+            'content' => $request->contents,
             'image' => $image
         ]);
 
