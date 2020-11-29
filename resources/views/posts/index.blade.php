@@ -28,11 +28,11 @@
                                 </td>
                                 <td>
                                     @if(!$post->trashed())
-                                        <button class="btm btn-success btn-sm">Edit</button>
+                                        <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-success btn-sm">Edit</a>
                                     @endif
                                 </td>
                                 <td>
-                                    <form action="{{ route('posts.destroy',$post->id) }}" method="POST">
+                                    <form action="{{ route('posts.destroy', $post->id) }}" method="POST">
                                         @csrf
                                         @method("DELETE")
                                         <button type="submit" class="btm btn-danger btn-sm">
