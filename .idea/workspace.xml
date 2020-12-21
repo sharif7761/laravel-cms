@@ -6,10 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5bb05-9f02-4f2a-9de0-61fb645be595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCategoriesCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Tags/CreateTagRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Tags/UpdateTagsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_21_192456_create_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tags/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,11 +159,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\self learning\laravel mega\laravel-cms\cms\resources\views\posts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\self learning\laravel mega\laravel-cms\cms\app\Http\Requests\Categories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\self learning\laravel mega\laravel-cms\cms\resources\views\posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -189,7 +196,7 @@
       <workItem from="1607702576869" duration="4589000" />
       <workItem from="1608482571133" duration="599000" />
       <workItem from="1608485844663" duration="599000" />
-      <workItem from="1608575740738" duration="2295000" />
+      <workItem from="1608575740738" duration="4782000" />
     </task>
     <servers />
   </component>
@@ -282,14 +289,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="98" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606465215755" />
+    <state x="176" y="290" key="NewPhpFileDialog" timestamp="1608580387730">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="176" y="290" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608580387730" />
     <state x="0" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608577161198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1608577161198" />
-    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606465185590">
+    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608579143354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606465185590" />
+    <state x="135" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608579143354" />
     <state x="0" y="166" key="run.anything.popup" timestamp="1606591131548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
