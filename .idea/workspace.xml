@@ -6,18 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5bb05-9f02-4f2a-9de0-61fb645be595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Tags/CreateTagRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Tags/UpdateTagsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_21_192456_create_tags_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tags/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +143,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../lessonation" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -196,7 +185,8 @@
       <workItem from="1607702576869" duration="4589000" />
       <workItem from="1608482571133" duration="599000" />
       <workItem from="1608485844663" duration="599000" />
-      <workItem from="1608575740738" duration="4782000" />
+      <workItem from="1608575740738" duration="5024000" />
+      <workItem from="1608656179683" duration="381000" />
     </task>
     <servers />
   </component>
@@ -285,10 +275,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605985681838" />
-    <state x="98" y="122" key="FileChooserDialogImpl" timestamp="1606465215755">
+    <state x="98" y="122" key="FileChooserDialogImpl" timestamp="1608656268900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="98" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606465215755" />
+    <state x="98" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608656268900" />
     <state x="176" y="290" key="NewPhpFileDialog" timestamp="1608580387730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
