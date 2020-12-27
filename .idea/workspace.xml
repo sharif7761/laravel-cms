@@ -6,14 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5bb05-9f02-4f2a-9de0-61fb645be595" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Users/UpdateProfileRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +195,9 @@
       <workItem from="1608575740738" duration="5024000" />
       <workItem from="1608656179683" duration="6577000" />
       <workItem from="1608745397202" duration="6763000" />
-      <workItem from="1608831138993" duration="2230000" />
+      <workItem from="1608831138993" duration="2798000" />
+      <workItem from="1609006341049" duration="632000" />
+      <workItem from="1609096721504" duration="2246000" />
     </task>
     <servers />
   </component>
@@ -290,10 +290,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="98" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608656268900" />
-    <state x="176" y="290" key="NewPhpFileDialog" timestamp="1608749325930">
+    <state x="176" y="290" key="NewPhpFileDialog" timestamp="1609097744575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="176" y="290" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608749325930" />
+    <state x="176" y="290" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609097744575" />
     <state x="0" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608577161198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -310,5 +310,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608578032320" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/users/edit.blade.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
